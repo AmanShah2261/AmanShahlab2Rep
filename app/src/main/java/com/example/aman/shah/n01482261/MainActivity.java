@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Create the Snackbar with an action to close the application
+
         snackbar = Snackbar.make(findViewById(android.R.id.content), "Press back again to close", Snackbar.LENGTH_LONG);
         snackbar.setAction("Close", new View.OnClickListener() {
             @Override
@@ -31,12 +31,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            // Intercept the user press on the soft back key
+
             if (snackbar.isShown()) {
-                // If the Snackbar is already shown, close the application
+
                 finish();
             } else {
-                // Show the Snackbar with an action to close
+
                 snackbar.show();
             }
             return true;
