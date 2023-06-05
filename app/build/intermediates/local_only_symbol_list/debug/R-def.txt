@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable download
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button
+id imageView3
+id text1
+id text3
+id toolbar2
+layout activity_2
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string button_submit
+string fullname_toast
+string label_name
+style Base.Theme.ShahALab01
+style Theme.ShahALab01
+xml backup_rules
+xml data_extraction_rules
